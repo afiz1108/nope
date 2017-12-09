@@ -159,7 +159,7 @@ helpMessage= """
 ╚═══════════════════
 ╔═══════════════════
 ╠     ✍️SUPRISE GIFT✍️
-╠❂͜͡➣ gift1-15
+╠❂͜͡➣ Gift1-15
 ╠❂͜͡➣ Spam gift
 ╚═══════════════════
 ╔═══════════════════
@@ -237,7 +237,7 @@ helpMessage= """
 ╠❂͜͡➣ Info @[name]
 ╠❂͜͡➣ Ping
 ╠❂͜͡➣ Time
-╠❂͜͡➣ apakah
+╠❂͜͡➣ Apakah
 ╠❂͜͡➣ Sticker [expression]
 ╠❂͜͡➣ Mention all
 ╠❂͜͡➣ /say
@@ -258,8 +258,8 @@ helpMessage= """
 ╠❂͜͡➣ Turn off bots
 ╚═══════════════════
 ╔═══════════════════╗
-☬   ᎢᎻX FᎾᎡ ᎷY ᎢᎬᎪᎷ            ☬
-☬       ღḯḉḯη-тєαм                          ☬
+☬        Fฺ่่่๋iฺ่่่๋zฺ่่่๋        ☬
+☬                   ☬
 ╚═══════════════════╝
 """
 KAC=[cl,ki,kk,kc,ks,kt]
@@ -279,8 +279,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["uc8487830df0446e693d46f5642e25b7a","ue2101fb9b105a2341d4d511635a12353"]
-owner = ["uc8487830df0446e693d46f5642e25b7a","ue2101fb9b105a2341d4d511635a12353"]
+admin = ["u29b7d9118645af64909adba01fe4cb26"]
+owner = ["u29b7d9118645af64909adba01fe4cb26"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -3837,9 +3837,8 @@ def bot(op):
 #-------------------Fungsi spam finish----------------------------
 #-----------------------------------------------
 #-----------------------------------------------
-            elif 'apakah' in msg.text.lower():
-              if msg.from_ in admin:
-                tanya = msg.text.lower().replace("apakah","")
+            elif 'Apakah' in msg.text.lower():
+                tanya = msg.text.lower().replace("Apakah","")
                 jawab = ("Ya","Tidak","Mungkin","Bisa jadi")
                 jawaban = random.choice(jawab)
                 cl.sendText(msg.to,jawaban)
@@ -3976,7 +3975,7 @@ def bot(op):
 			           random.choice(KAC).kickoutFromGroup(msg.to,[target])
 								
 #==========================================
-            elif "youtube " in msg.text.lower():
+            elif "Youtube " in msg.text.lower():
                 if msg.from_ in admin:
                    query = msg.text.split(" ")
                    try:
@@ -4226,7 +4225,7 @@ def bot(op):
                     #for _mid in gMembMids:
                         #random.choice(KAC).cancelGroupInvitation(msg.to,[_mid])
                     #cl.sendText(msg.to,"Clear boss!!!")
-            elif msg.text.lower() in ["Ats","Tag","mention all"]:
+            elif msg.text.lower() in ["Ats","Tag all","Mention all"]:
               if msg.from_ in admin:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
