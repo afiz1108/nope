@@ -290,7 +290,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by ღḯḉḯη-тєαм",
+    "comment":"AutoLike by Fฺ่่่๋iฺ่่่๋zฺ่่่๋",
     "welmsg":"welcome to group",
     "commentOn":True,
     "commentBlack":{},
@@ -2097,9 +2097,9 @@ def bot(op):
             elif msg.text in ["Creator"]:
               if msg.from_ in admin:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ub76a0153a283da9a1443dfb043181335'}
+                msg.contentMetadata = {'mid': 'u29b7d9118645af64909adba01fe4cb26'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"Itu Creator Saya ")
+                cl.sendText(msg.to,"Created by Fฺ่่่๋iฺ่่่๋zฺ่่่๋")
             elif "Admin on @" in msg.text:
                 if msg.from_ in owner:
                     print "[Command]Staff add executing"
