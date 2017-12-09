@@ -10,27 +10,27 @@ from gtts import gTTS
 
 #tinkerbell
 cl = LINETCR.LINE()
-cl.login(token="EniREpZXxL9jEd5Lyyc3.buR6kI43UYYJPsFBWtCcOW.3FtceSpnrblnwqUuVQQwv9w1kA85VD3nVYOLWtFTBvA=")
+cl.login(token="EnX74epRMp3Drtdbs4Mc.VO404wWDgdw0n0T3WkC0+a.AI/gidvjsdelp7QEu/9RZNQvVeqyoiBBl0TsQvqOwGY=")
 cl.loginResult()
 #vidia
 kt = LINETCR.LINE()
-kt.login(token="EniDnT1pcLYRhpH4s4b1.9Pqpw8rWGfp5nZgd8b0sGq.5YH39J534Dxzue59Kf/GFl2UA4uNl+OpWIfNyUOhCP0=")
+kt.login(token="En8I5rHNAp7gup1g6v41.7S41YiepIyUbpnsN+5O2eq.+aeRMbyGkw7tc8CLPcUdj/MrYf9l1xMTQ8PydHMWnII=")
 kt.loginResult()
 #rosetta
 ks = LINETCR.LINE()
-ks.login(token="EnJSpK6m7f1BBYAecCe0.uoEVZ358XP6oB2+t3M2zWa.So2b28ICj7Cgrdo6S7W14dOkSclxThFK0NBXbrS0HAw=")
+ks.login(token="En4bes9sKSpP05U6vEF9.J/eMhQwd2iuTfxuz19zSsq.rwJk4qaX+S+2q/ZnGc6qVwdLZfc6WHtOeZUim5LXopw=")
 ks.loginResult()
 #sirvelmist
 ki = LINETCR.LINE()
-ki.login(token="EnWukIP7LanoCO4cTlF1.geDeRpm8ggIlB3eg+5v7Oq.NkSl5XgaT7SkllL3jpl5hWdBDU+UBVPNWZrI7joZp3g=")
+ki.login(token="EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9OeXWOzsW4sGSUJVA45GirOdj4=")
 ki.loginResult()
 #fawn
 kk = LINETCR.LINE()
-kk.login(token="EnwjANwyZcLBXAJY3lw7.lRAP1cSe7XWQBVbmCbq9zW.Oo5+05UJ/NiEkUw9uGhi4KaAGI+VdGf3RCYTMAu6pAY=")
+kk.login(qr=True)
 kk.loginResult()
 #iridessa
 kc = LINETCR.LINE()
-kc.login(token="EnGfsSkwcA1kaNJGpFA2.j8RqvXsTCQOopjMoneNMyG.bRnLh9/VAUP034mPsPxNL3+Pg0TqKFT02pw/8vVWr7Y=")
+kc.login(qr=True)
 kc.loginResult()
 
 #kicker ghost
