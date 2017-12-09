@@ -26,11 +26,11 @@ ki.login(token="EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9Oe
 ki.loginResult()
 #fawn
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="EnWk0KvgfwbS1mMTS79b.bqOFJnJxN4T4QjA6tymdIW.cykCgdX2oWPzO+r35Sl3gvg1NwgR+VouTqnqjJLteps=")
 kk.loginResult()
 #iridessa
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="EnrN11HRlXgdzamBVTa4.TzxaP0feA4Najun7NMgCza.MnyHRsNivXYkWgiJOpa2mbUfQmEQ1OXi0cxsac2WWF4=")
 kc.loginResult()
 
 #kicker ghost
